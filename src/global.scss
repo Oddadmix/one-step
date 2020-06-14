@@ -24,3 +24,18 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+
+:root{
+    --brand-primary: rgb(97, 126, 255);
+    --brand-secondary: rgba(81, 78, 248, 0.3);
+    --white-primary: white;
+    --breath-time: 3000ms;
+}
+
+ion-card-content{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 50px;
+}

@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import * as qoutes from 'quotesy';
+
 
 @Component({
   selector: 'app-tab1',
@@ -7,6 +9,14 @@ import { Component } from '@angular/core';
 })
 export class Tab1Page {
 
-  constructor() {}
+
+  qoute = {
+    author: '',
+    text: ''
+  }
+
+  constructor() {
+    this.qoute = qoutes.random();
+  }
 
 }
